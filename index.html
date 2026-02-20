@@ -1,16 +1,66 @@
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Meidcal Form</title>
+  <meta charset="UTF-8">
+  <title>Medical Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+    label { display: block; margin-top: 16px; font-weight: bold; }
+    input, select, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+    fieldset { border: 1px solid #ddd; padding: 16px; margin-top: 24px; border-radius: 6px; }
+    legend { font-weight: bold; font-size: 1.1em; }
+    button { margin-top: 24px; padding: 12px 24px; background: #2a7ae4; color: white; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
 </head>
-<style>
-    body {
-        background-color: #A85242;
-        font-family: Arial, sans-serif;
-    }
 <body>
-<p> taco </p>
+  <h1>Patient Medical Form</h1>
+  <form>
+
+    <fieldset>
+      <legend>Patient Information</legend>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Jane Doe">
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob">
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender">
+        <option value="">-- Select --</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Non-binary</option>
+        <option>Prefer not to say</option>
+      </select>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone">
+    </fieldset>
+
+    <fieldset>
+      <legend>Medical History</legend>
+      <label for="conditions">Current Conditions</label>
+      <textarea id="conditions" name="conditions" rows="3" placeholder="e.g. diabetes, hypertension"></textarea>
+
+      <label for="allergies">Known Allergies</label>
+      <textarea id="allergies" name="allergies" rows="2" placeholder="e.g. penicillin, latex"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Current Medications</legend>
+      <label for="medications">List Medications (name, dose, frequency)</label>
+      <textarea id="medications" name="medications" rows="3" placeholder="e.g. Metformin 500mg twice daily"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Consent</legend>
+      <label>
+        <input type="checkbox" name="consent"> I confirm the information above is accurate to the best of my knowledge.
+      </label>
+    </fieldset>
+
+    <button type="submit">Submit Form</button>
+
+  </form>
 </body>
 </html>
