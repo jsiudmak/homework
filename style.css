@@ -15,4 +15,13 @@
 }
 body { background-color: #F5F5F5; font-family: Rubik, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
 
+h1 {
+    color: #37773B; /* Sets the text color to blue */
+    font-size: 2em; /* Sets the font size to 2em (twice the default size) */
+    text-align: center; /* Centers the text horizontally */
+    font-family: 'Rubik', serif; /* Sets the font family */
+    margin-bottom: 1em; /* Adds space below the heading */
+}
+
+
 
