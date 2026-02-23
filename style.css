@@ -6,6 +6,13 @@
   font-style: normal;
 }
 
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 30px;
+}
 body { background-color: #F5F5F5; font-family: Rubik, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
 
 
