@@ -1,6 +1,6 @@
 
 <style>
-    body { background-color: lightblue; font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+    body { background-color: red; font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
 label { display: block; margin-top: 16px; font-weight: bold; }
 input, select, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
 fieldset { border: 1px solid #ddd; padding: 16px; margin-top: 24px; border-radius: 6px; }
