@@ -18,7 +18,7 @@ body { background-color: #FFFBF2; font-family: Rubik, sans-serif; max-width: 700
 h1 {
     color: #333333; 
     text-align: center; 
-    font-family: 'Rubik', serif; 
+    font-family: 'Rubik', sans-serif; 
     margin-bottom: 1em; 
 }
 
@@ -26,7 +26,7 @@ h2 {
   color: #FFFFFF;
   background-color: #37773B;
   text-align: left;
-  font-family: 'Rubik', serif;
+  font-family: 'Rubik', sans-serif;
 
   
 }
