@@ -1,4 +1,11 @@
 
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 
 body { background-color: #F5F5F5; font-family: Rubik, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+
 
