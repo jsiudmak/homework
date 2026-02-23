@@ -16,11 +16,8 @@
 body { background-color: #FFFBF2; font-family: Rubik, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
 
 h1 {
-    color: #333333;
-    background-color: #37773B;
-  
-    font-size: 2em; 
-    text-align: center; 
+    color: #333333; 
+    text-align: left; 
     font-family: 'Rubik', serif; 
     margin-bottom: 1em; 
 }
