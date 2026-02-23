@@ -23,7 +23,10 @@ h1 {
 }
 
 h2 {
-  color: #333333
+  color: #FFFFFF;
+  background-color: #37773B;
+  text-align: left;
+  font-family: 'Rubik', serif;
 
   
 }
