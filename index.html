@@ -47,22 +47,17 @@ Description: This is a medical form for a ficional doctors office that will take
 
   <h2> Demographics and contact</h2>
 
-  <h2>Enhacment intake and health information</h2>
-  <form>
-  <fieldset>
-      <legend>Consent</legend>
-      <label>
-        <input type="checkbox" name="consent"> I confirm the information above is accurate to the best of my knowledge.
-      </label>
-    </fieldset>
-  </form>
-    
-  <form>
-
-    <fieldset>
+      <fieldset>
       <legend>Patient Information</legend>
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" placeholder="Jane Doe">
+      <label for="name">* First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Jane">
+      
+      <label for="name">Middle Initial</label>
+      <input type="text" id="mname" name="mname" >
+        
+      <label for="name">* Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="Doe">
+      
 
       <label for="dob">Date of Birth</label>
       <input type="date" id="dob" name="dob">
@@ -78,6 +73,19 @@ Description: This is a medical form for a ficional doctors office that will take
 
       <label for="phone">Phone Number</label>
       <input type="tel" id="phone" name="phone">
+    </fieldset>
+
+  <h2>Enhacment intake and health information</h2>
+  <form>
+  <fieldset>
+      <legend>Consent</legend>
+      <label>
+        <input type="checkbox" name="consent"> I confirm the information above is accurate to the best of my knowledge.
+      </label>
+    </fieldset>
+  </form>
+    
+  <form>
     </fieldset>
 
    
