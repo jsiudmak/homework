@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.rubik-<uniquifier> {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 .header {
   padding: 60px;
   text-align: center;
@@ -14,13 +7,20 @@
   color: #FFFFFF;
   font-size: 30px;
 }
-body { background-color: #FFFBF2; font-family: Rubik, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+
+body { 
+  background-color: #FFFBF2; 
+  font-family: 'Rubik', sans-serif; 
+  max-width: 700px; 
+  margin: 40px auto; 
+  padding: 0 20px; 
+}
 
 h1 {
-    color: #333333; 
-    text-align: center; 
-    font-family: 'Rubik', sans-serif; 
-    margin-bottom: 1em; 
+  color: #333333; 
+  text-align: center; 
+  font-family: 'Rubik', sans-serif; 
+  margin-bottom: 1em; 
 }
 
 h2 {
@@ -28,8 +28,5 @@ h2 {
   background-color: #37773B;
   text-align: left;
   font-family: 'Rubik', sans-serif;
-
-  
 }
-
 
