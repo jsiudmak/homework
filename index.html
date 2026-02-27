@@ -49,97 +49,96 @@ Description: This is a medical form for a ficional doctors office that will take
 
       <fieldset>
       
-      <legend for="name">* First Name</legend>
-      <input type="text" id="fname" name="fname" placeholder="Jane">
-      
-      <legend for="name">Middle Initial</legend>
-      <input type="text" id="mname" name="mname" > <br> 
+      <label for="fname">* First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Jane">
+
+        <label for="mname">Middle Initial</label>
+        <input type="text" id="mname" name="mname">
+
+        <label for="lname">* Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Doe">
         
-      <legend for="name">* Last Name</legend>
-      <input type="text" id="lname" name="lname" placeholder="Doe"> <br>
-      
-
-      <legend for="dob">* Date of Birth</legend>
-      <input type="date" id="dob" name="dob"> 
+        <label for="dob">* Date of Birth</label>
+        <input type="date" id="dob" name="dob">
         
-      <legend for="ssn">* Social Security Number</legend>
-      <input type="text" id="ssn" name="ssn">
+        <label for="ssn">* Social Security Number</label>
+        <input type="text" id="ssn" name="ssn">
         
-      <legend for="phone">Phone Number</legend>
-      <input type="tel" id="phone" name="phone">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+        
+        <label for="aline1">* Address Line 1</label>
+        <input type="text" id="aline1" name="aline1">
+        
+        <label for="aline2">Address Line 2</label>
+        <input type="text" id="aline2" name="aline2">
 
-      <legened for="aline1">* Address Line 1</legened>
-      <input type="text" id="aline1" name="aline1">
+              <label for="city">* City</label>
+              <input type="text" id="city" name="city">
 
-      <legend for="aline2">Address Line 2</legend>
-      <input type="text" id="aline2" name="aline2">
+              <label  for="state">* State</label>
+              <select id="state" name="state">
+                  <option value="">-- Select State --</option>
+                  <option value="AL">AL - Alabama</option>
+                  <option value="AK">AK - Alaska</option>
+                  <option value="AZ">AZ - Arizona</option>
+                  <option value="AR">AR - Arkansas</option>
+                  <option value="CA">CA - California</option>
+                  <option value="CO">CO - Colorado</option>
+                  <option value="CT">CT - Connecticut</option>
+                  <option value="DE">DE - Delaware</option>
+                  <option value="FL">FL - Florida</option>
+                  <option value="GA">GA - Georgia</option>
+                  <option value="HI">HI - Hawaii</option>
+                  <option value="ID">ID - Idaho</option>
+                  <option value="IL">IL - Illinois</option>
+                  <option value="IN">IN - Indiana</option>
+                  <option value="IA">IA - Iowa</option>
+                  <option value="KS">KS - Kansas</option>
+                  <option value="KY">KY - Kentucky</option>
+                  <option value="LA">LA - Louisiana</option>
+                  <option value="ME">ME - Maine</option>
+                  <option value="MD">MD - Maryland</option>
+                  <option value="MA">MA - Massachusetts</option>
+                  <option value="MI">MI - Michigan</option>
+                  <option value="MN">MN - Minnesota</option>
+                  <option value="MS">MS - Mississippi</option>
+                  <option value="MO">MO - Missouri</option>
+                  <option value="MT">MT - Montana</option>
+                  <option value="NE">NE - Nebraska</option>
+                  <option value="NV">NV - Nevada</option>
+                  <option value="NH">NH - New Hampshire</option>
+                  <option value="NJ">NJ - New Jersey</option>
+                  <option value="NM">NM - New Mexico</option>
+                  <option value="NY">NY - New York</option>
+                  <option value="NC">NC - North Carolina</option>
+                  <option value="ND">ND - North Dakota</option>
+                  <option value="OH">OH - Ohio</option>
+                  <option value="OK">OK - Oklahoma</option>
+                  <option value="OR">OR - Oregon</option>
+                  <option value="PA">PA - Pennsylvania</option>
+                  <option value="RI">RI - Rhode Island</option>
+                  <option value="SC">SC - South Carolina</option>
+                  <option value="SD">SD - South Dakota</option>
+                  <option value="TN">TN - Tennessee</option>
+                  <option value="TX">TX - Texas</option>
+                  <option value="UT">UT - Utah</option>
+                  <option value="VT">VT - Vermont</option>
+                  <option value="VA">VA - Virginia</option>
+                  <option value="WA">WA - Washington</option>
+                  <option value="WV">WV - West Virginia</option>
+                  <option value="WI">WI - Wisconsin</option>
+                  <option value="WY">WY - Wyoming</option>
+        </select>
 
-      <legend for="city">* City</legend>
-      <input type="text" id="city" name="city">
-
-      <legend  for="state">* State</legend>
-      <select id="state" name="state">
-          <option value="">-- Select State --</option>
-          <option value="AL">AL - Alabama</option>
-          <option value="AK">AK - Alaska</option>
-          <option value="AZ">AZ - Arizona</option>
-          <option value="AR">AR - Arkansas</option>
-          <option value="CA">CA - California</option>
-          <option value="CO">CO - Colorado</option>
-          <option value="CT">CT - Connecticut</option>
-          <option value="DE">DE - Delaware</option>
-          <option value="FL">FL - Florida</option>
-          <option value="GA">GA - Georgia</option>
-          <option value="HI">HI - Hawaii</option>
-          <option value="ID">ID - Idaho</option>
-          <option value="IL">IL - Illinois</option>
-          <option value="IN">IN - Indiana</option>
-          <option value="IA">IA - Iowa</option>
-          <option value="KS">KS - Kansas</option>
-          <option value="KY">KY - Kentucky</option>
-          <option value="LA">LA - Louisiana</option>
-          <option value="ME">ME - Maine</option>
-          <option value="MD">MD - Maryland</option>
-          <option value="MA">MA - Massachusetts</option>
-          <option value="MI">MI - Michigan</option>
-          <option value="MN">MN - Minnesota</option>
-          <option value="MS">MS - Mississippi</option>
-          <option value="MO">MO - Missouri</option>
-          <option value="MT">MT - Montana</option>
-          <option value="NE">NE - Nebraska</option>
-          <option value="NV">NV - Nevada</option>
-          <option value="NH">NH - New Hampshire</option>
-          <option value="NJ">NJ - New Jersey</option>
-          <option value="NM">NM - New Mexico</option>
-          <option value="NY">NY - New York</option>
-          <option value="NC">NC - North Carolina</option>
-          <option value="ND">ND - North Dakota</option>
-          <option value="OH">OH - Ohio</option>
-          <option value="OK">OK - Oklahoma</option>
-          <option value="OR">OR - Oregon</option>
-          <option value="PA">PA - Pennsylvania</option>
-          <option value="RI">RI - Rhode Island</option>
-          <option value="SC">SC - South Carolina</option>
-          <option value="SD">SD - South Dakota</option>
-          <option value="TN">TN - Tennessee</option>
-          <option value="TX">TX - Texas</option>
-          <option value="UT">UT - Utah</option>
-          <option value="VT">VT - Vermont</option>
-          <option value="VA">VA - Virginia</option>
-          <option value="WA">WA - Washington</option>
-          <option value="WV">WV - West Virginia</option>
-          <option value="WI">WI - Wisconsin</option>
-          <option value="WY">WY - Wyoming</option>
-</select>
-
-<legend  for="zip">* Zip Code</legend >
+<label  for="zip">* Zip Code</label >
 <input type="text" id="zip" name="zip">
 
         
 
         
 
-      <legend for="sex">* Sex</legend>
+      <label for="sex">* Sex</label>
       <input type="radio" id="male" name="sex" value="male">
       <label for="male">Male</label>
       <input type="radio" id="female" name="sex" value="female">
