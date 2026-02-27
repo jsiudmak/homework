@@ -35,18 +35,21 @@ fieldset {
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
 }
 
 legend {
   font-weight: bold;
   padding: 0 10px;
   font-size: 1.1em;
+  font-family: 'Rubik', sans-serif;
 }
 
 label {
   display: block;
   margin-top: 10px;
   font-weight: 600;
+  font-family: 'Rubik', sans-serif;
 }
 
 input, select {
@@ -57,4 +60,5 @@ input, select {
   box-sizing: border-box;
   border: 1px solid #aaa;
   border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
 }
