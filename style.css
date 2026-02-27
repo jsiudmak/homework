@@ -63,3 +63,32 @@ input, select {
   font-family: 'Rubik', sans-serif;
 }
 
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 4px;
+}
+
+.radio-group input[type="radio"],
+.checkbox-group input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin: 0;
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: inline;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
