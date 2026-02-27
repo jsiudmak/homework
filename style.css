@@ -79,3 +79,22 @@ input, select {
   display: inline;
   width: auto;
 }
+
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.checkbox-group input {
+  width: auto;
+  display: inline;
+}
+
+    .checkbox-group label {
+          display: inline;
+          margin-top: 0;
+          font-weight: normal;
+        }
