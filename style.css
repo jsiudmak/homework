@@ -46,10 +46,7 @@ label {
   font-family: 'Rubik', sans-serif;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="tel"],
+
 select {
   display: block;
   width: 100%;
@@ -117,7 +114,5 @@ button[type="submit"]:hover {
 
 footer {
   text-align: center;
-  margin-top: 40px;
-  color: #666;
   font-family: 'Rubik', sans-serif;
 }
