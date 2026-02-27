@@ -62,41 +62,4 @@ input, select {
   border-radius: 4px;
   font-family: 'Rubik', sans-serif;
 }
-.radio-group {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-top: 4px;
-}
 
-.radio-group input[type="radio"] {
-  display: inline !important;
-  width: auto !important;
-  margin: 0 !important;
-  float: none !important;
-}
-
-.radio-group label {
-  display: inline !important;
-  margin-top: 0 !important;
-  font-weight: normal !important;
-}
-
-
-.checkbox-group {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 4px;
-}
-
-.checkbox-group input {
-  width: auto;
-  display: inline;
-}
-
-    .checkbox-group label {
-          display: inline;
-          margin-top: 0;
-          font-weight: normal;
-        }
