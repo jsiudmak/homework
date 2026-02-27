@@ -10,7 +10,6 @@ Description: This is a medical form for a ficional doctors office that will take
 
 
   
-!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -20,11 +19,15 @@ Description: This is a medical form for a ficional doctors office that will take
 <body>
 
   <h1>New Patient Registration</h1>
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt;
+    </script>
   <p>Fields marked with * are required</p>
 
   <form>
 
-    <!-- ACCOUNT SETUP -->
+    
     <h2>Account Setup</h2>
     <fieldset>
       <label for="userID">* Desired User ID</label>
@@ -40,7 +43,7 @@ Description: This is a medical form for a ficional doctors office that will take
       <input type="password" id="confirm_password" required onkeyup="checkPasswordMatch();">
     </fieldset>
 
-    <!-- DEMOGRAPHICS AND CONTACT -->
+    
     <h2>Demographics and Contact</h2>
     <fieldset>
 
@@ -139,7 +142,7 @@ Description: This is a medical form for a ficional doctors office that will take
 
     </fieldset>
 
-    <!-- ENHANCEMENT INTAKE -->
+    
     <h2>Enhancement Intake and Health Information</h2>
     <fieldset>
       <legend>Consent</legend>
