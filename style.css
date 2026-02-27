@@ -115,4 +115,6 @@ button[type="submit"]:hover {
 footer {
   text-align: center;
   font-family: 'Rubik', sans-serif;
+  background: #2e2f34;
+  color:#ececec;
 }
