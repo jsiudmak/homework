@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #FFFFFF;
-  color: #FFFFFF;
-  font-size: 30px;
-}
-
 body { 
   background-color: #FFFBF2; 
   font-family: 'Rubik', sans-serif; 
@@ -28,6 +20,8 @@ h2 {
   background-color: #37773B;
   text-align: left;
   font-family: 'Rubik', sans-serif;
+  padding: 8px 12px;
+  margin: 20px 0 0 0;
 }
 
 fieldset {
@@ -52,7 +46,11 @@ label {
   font-family: 'Rubik', sans-serif;
 }
 
-input, select {
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="tel"],
+select {
   display: block;
   width: 100%;
   padding: 6px 8px;
@@ -63,23 +61,20 @@ input, select {
   font-family: 'Rubik', sans-serif;
 }
 
-
 .radio-group {
   display: flex;
   align-items: center;
   gap: 15px;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
-.radio-group input[type="radio"],
-.checkbox-group input[type="checkbox"] {
+.radio-group input[type="radio"] {
   display: inline;
   width: auto;
   margin: 0;
 }
 
-.radio-group label,
-.checkbox-group label {
+.radio-group label {
   display: inline;
   margin-top: 0;
   font-weight: normal;
@@ -89,6 +84,40 @@ input, select {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
+.checkbox-group input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin: 0;
+}
+
+.checkbox-group label {
+  display: inline;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 24px;
+  background-color: #37773B;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #2a5c2e;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+  font-family: 'Rubik', sans-serif;
+}
