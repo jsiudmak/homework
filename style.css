@@ -69,15 +69,17 @@ input, select {
   margin-top: 4px;
 }
 
-.radio-group label {
-  display: inline;
-  margin-top: 0;
-  font-weight: normal;
+.radio-group input[type="radio"] {
+  display: inline !important;
+  width: auto !important;
+  margin: 0 !important;
+  float: none !important;
 }
 
-.radio-group input {
-  display: inline;
-  width: auto;
+.radio-group label {
+  display: inline !important;
+  margin-top: 0 !important;
+  font-weight: normal !important;
 }
 
 
